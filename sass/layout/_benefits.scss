@@ -1,0 +1,36 @@
+.benefits {
+    padding-top: 94px;
+}
+
+.benefits__title{
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.benefits__list{
+    display: flex;
+    gap: 30px;
+}
+
+.benefits__icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--bg-icon);
+}
+
+.benefits__icon_antena,
+.benefits__icon_clock,
+.benefits__icon_diagram,
+.benefits__icon_astronaut {
+    width: 70px;
+    height: 70px;
+}
