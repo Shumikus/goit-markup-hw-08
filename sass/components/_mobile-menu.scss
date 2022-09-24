@@ -20,3 +20,30 @@
     visibility: visible;
     pointer-events: auto;
 }
+
+.mobile-menu__link{
+    font-size: 40px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.mobile-menu__nav-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: auto;
+
+}
+
+.mobile-menu__contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mobile-menu__nav{
+    display: flex;
+    margin-bottom: auto;
+}
+
