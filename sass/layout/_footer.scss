@@ -74,6 +74,7 @@
 .subscribe__label{
     display: block;
     margin-bottom: 20px;
+    width: 450px;
 }
 
 
@@ -120,23 +121,65 @@
     border-radius: 4px;
     padding-left: 16px;
 }
+// ============= Tablet ================
 
 @media screen and (min-width: 768px) {
+
+    .container-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+        .footer-social {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .footer-address{
+            margin-bottom: 60px;
+        }
+}
+// =========== Desktop ==============
+
+@media screen and (min-width: 1200px) {
+    .container-footer{
+        align-items: baseline;
+    }
+
+
     .footer-address{
-        display: inline-block;
+        margin-right: 70px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .address__item:not(:last-child) {
+    margin-bottom: 9px;
     }
 
     .footer-social{
-        display: inline-block;
-        padding-top: 0;
-        padding-bottom: 0;
+        text-align: left;
     }
 
-    .footer__wrapper{
+    .subscribe{
+        text-align: left;
+    }
+
+    .subscribe__label{
+        margin-bottom: 0;
+        margin-right: 12px;
+        width: 358px;
+
+    }
+
+
+    .subscribe__form{
         display: flex;
     }
+    .footer-social{
+    margin-right: 93px;
 }
-
+}
 
 
 
@@ -173,9 +216,7 @@
 //     margin-bottom: 9px;
 // }
 
-// .footer-social{
-//     margin-right: 93px;
-// }
+
 
 // .footer-social__title {
 //     margin-bottom: 20px;
