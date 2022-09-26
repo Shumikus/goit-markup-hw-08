@@ -38,9 +38,11 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx){
     .overlay__hero{
-        background-image:linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/bg-hero@2x.jpg);
+        background-image:linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/mobil/bg-hero@2x.jpg);
     }
 }
+
 
 
 // ======== Mobile ===========
