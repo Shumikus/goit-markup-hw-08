@@ -28,7 +28,7 @@
 
     background: #c4c4c4;
     background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(./images/mobile/bg-hero.jpg);
+    url(../images/mobile/bg-hero.jpg);
 
     background-position: center;
     background-size: cover;
@@ -76,7 +76,7 @@
         min-height: 400px;
 
         background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(./images/tablet/bg-hero.jpg);
+            url(../images/tablet/bg-hero.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -84,7 +84,7 @@
     (min-resolution: 2dppx){
         .overlay__hero{
         background-image:linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(./images/tablet/bg-hero@2x.jpg);
+        url(../images/tablet/bg-hero@2x.jpg);
     }
 }
 }
@@ -108,7 +108,7 @@
         min-height: 600px;
 
         background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(./images/desktop/bg-hero.jpg);
+            url(../images/desktop/bg-hero.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -116,7 +116,7 @@
     (min-resolution: 2dppx){
         .overlay__hero{
         background-image:linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(./images/desktop/bg-hero@2x.jpg);
+        url(../images/desktop/bg-hero@2x.jpg);
     }
 }
 }
