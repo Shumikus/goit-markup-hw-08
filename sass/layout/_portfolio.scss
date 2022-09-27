@@ -45,88 +45,22 @@
 .card-box__img{
     width: 100%;
 }
-
-@media screen and (min-width: 480px)  {
-    .card-box__img {
-            max-width: 450px;
-        }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1200px) {
-    .portfolio {
-            padding-top: 94px;
-            padding-bottom: 94px;
-        }
-
-    .filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    gap: 8px;
-    }
-
-    .card-box__list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-}
-
-
-
-
-// .filter__button{
-//     padding: 6px 22px;
-
-//     font-weight: 500;
-//     line-height: 1.62;
-//     letter-spacing: 0.03em;
-//     border-color: transparent;
-//     color: var(--title-text-color);
-//     background-color: var(--bg-section);
-//     transition: color var(--animation-time) var(--cubic),
-//         background-color var(--animation-time) var(--cubic),
-//         box-shadow var(--animation-time) var(--cubic);
-//         &:hover,
-//             &:focus {
-//                 background-color: var(--button-background);
-//                 color: var(--hero-color);
-//                 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-//                     0px 2px 2px rgba(0, 0, 0, 0.12);
-//             }
-// }
-
-
-
 .card-box__link {
     display: block;
     transition: box-shadow var(--animation-time) var(--cubic);
+
     &:hover,
     &:focus {
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
-        }
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
+
 .card-box__wrapper {
     position: relative;
     overflow: hidden;
 }
+
 .card-box__overlay {
     position: absolute;
     bottom: 0;
@@ -142,10 +76,11 @@
     padding: 63px 24px;
 
     background: rgba(33, 150, 243, 0.9);
+
     .card-box__link:hover &,
     .card-box__link:focus & {
         transform: translateY(0);
-        }
+    }
 }
 
 .card-box__overlay_text {
@@ -177,3 +112,48 @@
     line-height: 1.88;
     color: var(--main-color-text);
 }
+
+@media screen and (min-width: 480px)  {
+    .card-box__item{
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-box__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card-box__item{
+        max-width: 354px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
+
+    .filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+    }
+
+    .card-box__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+}
+
+
+
+
+
+

@@ -132,13 +132,17 @@
         justify-content: space-around;
     }
 
-        .footer-social {
-            padding-top: 0px;
-            padding-bottom: 0px;
+    .footer-social {
+        padding-top: 0px;
+        padding-bottom: 0px;
         }
-        .footer-address{
-            margin-bottom: 60px;
+    .footer-address{
+        margin-bottom: 60px;
         }
+    
+    .subscribe__form{
+        min-width: 450px;
+    }
 }
 // =========== Desktop ==============
 

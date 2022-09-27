@@ -876,6 +876,9 @@ header {
   .footer-address {
     margin-bottom: 60px;
   }
+  .subscribe__form {
+    min-width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .container-footer {
@@ -1149,28 +1152,6 @@ header {
   width: 100%;
 }
 
-@media screen and (min-width: 480px) {
-  .card-box__img {
-    max-width: 450px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  .filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    gap: 8px;
-  }
-  .card-box__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-}
 .card-box__link {
   display: block;
   transition: box-shadow var(--animation-time) var(--cubic);
@@ -1227,4 +1208,38 @@ header {
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-color-text);
+}
+
+@media screen and (min-width: 480px) {
+  .card-box__item {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-box__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .card-box__item {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+  }
+  .card-box__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
