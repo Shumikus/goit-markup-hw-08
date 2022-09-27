@@ -1,3 +1,8 @@
+.mobile-menu_wrapper {
+    position: relative;
+    padding: 48px 40px;
+}
+
 .mobile-menu{
     position: fixed;
     top: 0;
@@ -14,6 +19,29 @@
     visibility var(--animation-time);
     
 }
+.mobile-menu__btn_close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+    background: transparent;
+
+    &:focus,
+    &:hover {
+        fill: var(--logo-color);
+    }
+}
+
+.mobile-menu__icon {
+    width: 11px;
+    height: 11px;
+    transition: fill var(--animation-time) var(--cubic);
+}
 
 .mobile-menu.is-open {
     opacity: 1;
@@ -26,7 +54,12 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.02em;
+
+    color: var(--title-text-color);
 }
+.mobile-menu__link_active {
+    color: var(--nav-hover-color);
+    }
 
 .mobile-menu__nav-list{
     display: flex;

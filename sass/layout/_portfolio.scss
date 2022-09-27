@@ -46,7 +46,9 @@
     width: 100%;
 }
 .card-box__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     transition: box-shadow var(--animation-time) var(--cubic);
 
     &:hover,
@@ -92,6 +94,7 @@
 }
 
 .card-name {
+    flex-grow: 1;
     padding: 20px 24px;
     border-left: 1px solid var(--color-border);
     border-right: 1px solid var(--color-border);
@@ -149,7 +152,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-}
+    }
+
+    .card-box__item{
+        max-width: 370px;
+    }
 }
 
 

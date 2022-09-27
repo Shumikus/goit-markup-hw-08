@@ -27,6 +27,9 @@
     width: 40px;
     height: 40px;
     background-color: #fff;
+    &:hover,&:focus{
+        fill: var(--nav-hover-color);
+    }
 }
 
 .header__menu {
@@ -36,10 +39,7 @@
     
 }
 
-.mobile-menu_wrapper{
-    position: relative;
-    padding: 48px 40px;
-}
+
 // ============== tablet ====================
 @media screen and (min-width: 768px) {
 
