@@ -73,6 +73,26 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin-bottom: 64px;
+}
+
+.mobile-menu__contact-link_phone{
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--nav-hover-color);
+}
+
+.mobile-menu__contact-link_email{
+    
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--main-color-text);
+
 }
 
 .mobile-menu__nav{
