@@ -1,1 +1,13 @@
 исправить в футере инпут в форме  на 480 тянеться больше чвем 450пх
+.mobile-menu__social-list_link:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 0;
+    display: inline-block;
+    width: 1px;
+    height: 22px;
+    background-image: url(./images/line.svg);
+}
+ padding-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
