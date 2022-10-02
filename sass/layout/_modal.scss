@@ -25,7 +25,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 450px;
+    width: 100%;
     height: 609px;
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -35,6 +35,7 @@
 
     padding: 40px;
 }
+
 
 .modal__btn_close {
     position: absolute;
@@ -65,8 +66,8 @@
     margin-bottom: 12px;
 
     font-weight: 700;
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 4.16vw;
+    line-height: 6.25VW;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -75,10 +76,12 @@
 .form {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .form__label {
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .form__name {
@@ -92,7 +95,9 @@
 
 .form__wrapper {
     position: relative;
+    width: 100%;
 }
+
 
 .form__input {
     display: block;
@@ -146,8 +151,8 @@
 .form__label_checkbox {
     display: flex;
     align-items: center;
-    font-size: 12px;
-    line-height: 1.17;
+    font-size: 2.5VW;
+    line-height: 2.9VW;
 }
 
 .form__input_appearance {
@@ -210,6 +215,23 @@
         }
 }
 
+// ================== Mobile ==================
+@media screen and (min-width:480px) {
+        .modal{
+            width: 450px;
+        }
+    .form__label_checkbox {
+            font-size: 12px;
+            line-height: 1.17;
+        }
+    
+        .modal__title {
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+}
+// ==================== Desktop ========================
 @media screen and (min-width: 1200px) {
     .modal{
         width: 528px;
@@ -218,7 +240,7 @@
 
     .form__label_checkbox{
         font-size: 14px;
-            line-height: 1.71;
+        line-height: 1.71;
     }
 
     .modal__title{

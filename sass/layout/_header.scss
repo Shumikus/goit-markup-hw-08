@@ -45,7 +45,10 @@ header {
 
 // ============== tablet ====================
 @media screen and (min-width: 768px) {
-
+    .header__menu {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 
     .menu-burger__open{
         display: none;
@@ -148,10 +151,7 @@ header {
 
 // ============== desktop ========================
 @media screen and (min-width: 1200px) {
-    .header__menu{
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
+
 
     .contact-header__item{
     &:first-child {
