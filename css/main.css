@@ -1264,7 +1264,6 @@ header {
   max-width: 100%;
   max-height: 100%;
   transform: translateY(101%);
-  overflow: auto;
   transition: transform var(--animation-time) var(--cubic), box-shadow var(--animation-time) var(--cubic);
   display: block;
   padding: 63px 24px;
